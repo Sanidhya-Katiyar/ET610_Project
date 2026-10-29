@@ -1,0 +1,4 @@
+# Normalize text files to LF in the repository.
+* text=auto eol=lf
+# Frozen protocols are verified byte-for-byte by SHA-256 in the analysis scripts: never convert them.
+protocol/* -text

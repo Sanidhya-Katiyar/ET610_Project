@@ -1,0 +1,21 @@
+# Whitelist: only code, tests, frozen protocols and docs needed to reproduce the analysis are tracked.
+# Raw and derived student-level data must never be committed or redistributed (ASSISTments Data Terms of Use).
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/requirements.txt
+!/src/
+!/tests/
+!/protocol/
+
+# Never track data or generated outputs, even if copied into a tracked folder
+data/
+*.parquet
+*.duckdb
+*.duckdb.wal
+*.csv
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
