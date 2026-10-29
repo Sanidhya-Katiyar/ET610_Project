@@ -141,8 +141,4 @@ Each checking script refuses to run if its protocol file has been modified. The 
 - Results should be identical on the same platform and library versions (`requirements.txt`).
 - Small differences are possible across BLAS builds.
 
-## Privacy
 
-- Scripts write only aggregates to logs and reports.
-- No student, class or teacher identifiers are written outside `data/`.
-- Do not commit anything from `data/`; the `.gitignore` whitelist prevents it.
